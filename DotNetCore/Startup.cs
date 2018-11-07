@@ -36,7 +36,7 @@ namespace DotNetCore
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
-            services.AddSingleton<ITodoItemService, FakeTodoItemService>();
+            services.AddSingleton<ITodoItemService, TodoItemService>();
 
             services.AddMvc();
         }
