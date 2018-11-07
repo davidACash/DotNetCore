@@ -1,5 +1,5 @@
 using System;
-using System.ComponenetModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace DotNetCore.Models
 {
